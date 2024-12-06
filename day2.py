@@ -1,4 +1,5 @@
-# Problem 13. Roman to Integer: https://leetcode.com/problems/roman-to-integer/
+# Problem 13. Roman to Integer:
+# https://leetcode.com/problems/roman-to-integer/
 
 class Solution(object):
     def romanToInt(self, s):
@@ -16,7 +17,8 @@ class Solution(object):
         total = 0
         prev_value = 0
 
-    # Iterate through each character in the Roman numeral string from right to left
+    # Iterate through each character in the Roman numeral
+    # string from right to left
         for char in reversed(s):
             value = d[char]
 
