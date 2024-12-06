@@ -1,4 +1,5 @@
-# Problem 1. Two Sum: https://leetcode.com/problems/two-sum/
+# Problem 1. Two Sum:
+# https://leetcode.com/problems/two-sum/
 
 class Solution(object):
     def twoSum(self, nums, target):
